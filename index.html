@@ -444,6 +444,25 @@
             </li>
           </ul>
         </div>
+        <div class="footer-form">
+          <p class="footer-form-txt text-roboto">Subscribe</p>
+          <form class="fotr-form">
+            <input
+              type="email"
+              name="E-mail"
+              class="ftr-form-inp"
+              placeholder="E-mail"
+            />
+            <div class="footer-btn-icon">
+              <button type="submit" class="footer-form-btn">
+                <span class="footer-form-span">Subscribe</span>
+              </button>
+              <svg class="footer-icon-button" width="24" height="24">
+                <use href="./images/symbol-defs.svg#icon-Frame-3"></use>
+              </svg>
+            </div>
+          </form>
+        </div>
       </div>
     </footer>
     <div class="backdrop is-hidden" data-modal>
@@ -455,6 +474,59 @@
             ></use>
           </svg>
         </button>
+        <p class="modal-title text-roboto">
+          Leave your contacts and we will call you back
+        </p>
+        <form class="modal-form">
+          <label class="modal-field">
+            <span class="modal-form-text text-roboto">Name</span>
+            <span class="modal-field-icon">
+              <input type="text" name="user-name" class="modal-form-input" />
+              <svg class="modal-form-icon" width="18" height="18">
+                <use href="./images/symbol-defs.svg#icon-person-black"></use>
+              </svg>
+            </span>
+          </label>
+          <label class="modal-field">
+            <span class="modal-form-text text-roboto">Phone</span>
+            <span class="modal-field-icon">
+              <input type="tel" name="user-phone" class="modal-form-input" />
+              <svg class="modal-form-icon" width="18" height="24">
+                <use href="./images/symbol-defs.svg#icon-phone-black"></use>
+              </svg>
+            </span>
+          </label>
+          <label class="modal-field">
+            <span class="modal-form-text text-roboto">Email</span>
+            <span class="modal-field-icon">
+              <input type="email" name="user-email" class="modal-form-input" />
+              <svg class="modal-form-icon" width="18" height="24">
+                <use href="./images/symbol-defs.svg#icon-email-black"></use>
+              </svg>
+            </span>
+          </label>
+          <label class="modal-field">
+            <span class="modal-form-text text-roboto">Comment</span>
+            <span class="modal-text-input">
+              <textarea
+                type="text"
+                name="user-comment"
+                class="modal-com-input"
+                placeholder="Text input"
+              ></textarea>
+            </span>
+          </label class="modal-field ">
+          <div class="check-box between">
+            <input class="input-check visually-hidden" type="checkbox" id="check" name="active" value="true">
+          <label name="active" class="modal-field last-lbl text-roboto check-text" for="check">I accept the terms and conditions of the
+            <span class="checkbox-span">
+              <a class="modal-field-link" href="">Privacy Policy</a>
+            </span>
+          </label>
+            
+          </div>
+          <button type="submit" class="modal-form-btn text-roboto">Send</button>
+        </form>
       </div>
     </div>
     <script src="./js/modal.js"></script>
