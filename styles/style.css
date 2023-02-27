@@ -125,7 +125,7 @@ button {
   margin-left: 76px;
 }
 .header-nav-links {
-  transition-property: color, 250ms, var(--transition-fun);
+  transition-property: color 250ms var(--transition-fun);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
