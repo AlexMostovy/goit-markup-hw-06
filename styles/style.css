@@ -143,7 +143,7 @@ button {
   gap: 40px;
 }
 .header-address-letterr {
-  transition-property: color, 250ms, var(--transition-fun);
+  transition-property: color 250ms var(--transition-fun);
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -199,7 +199,7 @@ button {
   border: 0;
 }
 .hero-button {
-  transition-property: background-color, 250ms, var(--transition-fun);
+  transition-property: background-color 250ms var(--transition-fun);
   margin-left: auto;
   margin-right: auto;
   margin-top: 48px;
@@ -320,7 +320,7 @@ button {
   height: 40px;
 }
 .team-soc-link {
-  transition-property: background-color, 250ms, var(--transition-fun);
+  transition-property: background-color 250ms var(--transition-fun);
   width: 100%;
   height: 100%;
   border-radius: 50%;
@@ -365,7 +365,7 @@ button {
   height: 88px;
 }
 .custom-sec-link {
-  transition-property: border-color, 250ms, fill, var(--transition-fun);
+  transition-property: border-color 250ms fill var(--transition-fun);
   width: 100%;
   height: 100%;
   border: 1px solid #8e8f99;
@@ -403,7 +403,7 @@ button {
   fill: #f4f4fd;
 }
 .text-footer-icon {
-  transition-property: background, transition, var(--transition-fun);
+  transition-property: background transition var(--transition-fun);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -540,8 +540,8 @@ button {
 }
 
 .btn {
-  transition-property: color, background-color, transition, box-shadow,
-    border-radius, var(--transition-fun);
+  transition-property: color,
+    background-color transition box-shadow border-radius, var(--transition-fun);
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
@@ -658,7 +658,7 @@ button {
   transition-timing-function: var(--transition-fun);
 }
 .modal-close-btn {
-  transition-property: background-color, fill, var(--transition-fun);
+  transition-property: background-color fill var(--transition-fun);
   display: flex;
   align-items: center;
   justify-content: center;
